@@ -1,0 +1,97 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <title>Code Quality Report</title>
+    <meta name="description" content="Code Quality Report">
+    <meta name="author" content="Quality Tooling Team">
+
+    <!-- CSS only -->
+    <link href="/Users/rniquefa/fury_shipping-cart-partial-cancel/code_quality_service/resources/bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="/Users/rniquefa/fury_shipping-cart-partial-cancel/code_quality_service/resources/prism/prism.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body>
+<script src="/Users/rniquefa/fury_shipping-cart-partial-cancel/code_quality_service/resources/bootstrap/bootstrap.bundle.min.js" type="text/javascript"></script>
+<script src="/Users/rniquefa/fury_shipping-cart-partial-cancel/code_quality_service/resources/prism/prism.js"></script>
+
+<div class="container">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href=/Users/rniquefa/fury_shipping-cart-partial-cancel/code_quality_service/root.html>root</a></li>
+                    <li class="breadcrumb-item"><a href=/Users/rniquefa/fury_shipping-cart-partial-cancel/code_quality_service/src/src.html>src</a></li>
+                    <li class="breadcrumb-item"><a href=/Users/rniquefa/fury_shipping-cart-partial-cancel/code_quality_service/src/main/main.html>main</a></li>
+                    <li class="breadcrumb-item"><a href=/Users/rniquefa/fury_shipping-cart-partial-cancel/code_quality_service/src/main/java/java.html>java</a></li>
+                    <li class="breadcrumb-item"><a href=/Users/rniquefa/fury_shipping-cart-partial-cancel/code_quality_service/src/main/java/com/com.html>com</a></li>
+                    <li class="breadcrumb-item"><a href=/Users/rniquefa/fury_shipping-cart-partial-cancel/code_quality_service/src/main/java/com/mercadolibre/mercadolibre.html>mercadolibre</a></li>
+                    <li class="breadcrumb-item"><a href=/Users/rniquefa/fury_shipping-cart-partial-cancel/code_quality_service/src/main/java/com/mercadolibre/shipping_cart_partial_cancel/shipping_cart_partial_cancel.html>shipping_cart_partial_cancel</a></li>
+                    <li class="breadcrumb-item"><a href=/Users/rniquefa/fury_shipping-cart-partial-cancel/code_quality_service/src/main/java/com/mercadolibre/shipping_cart_partial_cancel/configs/configs.html>configs</a></li>
+                    <li class="breadcrumb-item active" aria-current="page"><a href=/Users/rniquefa/fury_shipping-cart-partial-cancel/code_quality_service/src/main/java/com/mercadolibre/shipping_cart_partial_cancel/configs/beans/beans.html>beans</a></li>
+        </ol>
+    </nav>
+</div>
+
+<div class="container">
+    <h2>ObjectMapperFactory.java</h2>
+    <span class="badge bg-warning text-dark">Total issues: 15</span>
+    <span class="badge bg-warning text-dark">Complexity: 2</span>
+    <hr>
+</div>
+
+<div class="container">
+    <pre class="language-java line-numbers">
+            <code>package com.mercadolibre.shipping_cart_partial_cancel.configs.beans;</code>
+                    <span class="badge bg-warning text-dark">Package name 'com.mercadolibre.shipping_cart_partial_cancel.configs.beans' must match pattern '^[a-z]+(\.[a-z][a-z0-9]*)*$'.</span>
+            <code> </code>
+            <code>import com.fasterxml.jackson.annotation.JsonInclude;</code>
+            <code>import com.fasterxml.jackson.databind.DeserializationFeature;</code>
+            <code>import com.fasterxml.jackson.databind.ObjectMapper;</code>
+            <code>import com.fasterxml.jackson.databind.PropertyNamingStrategies;</code>
+            <code>import com.fasterxml.jackson.databind.SerializationFeature;</code>
+            <code>import com.fasterxml.jackson.module.afterburner.AfterburnerModule;</code>
+            <code>import org.springframework.context.annotation.Bean;</code>
+            <code>import org.springframework.context.annotation.Configuration;</code>
+            <code> </code>
+            <code>import java.text.DateFormat;</code>
+                    <span class="badge bg-warning text-dark">Extra separation in import group before 'java.text.DateFormat'</span>
+                    <span class="badge bg-warning text-dark">Wrong lexicographical order for 'java.text.DateFormat' import. Should be before 'org.springframework.context.annotation.Configuration'.</span>
+            <code>import java.text.SimpleDateFormat;</code>
+                    <span class="badge bg-warning text-dark">Wrong lexicographical order for 'java.text.SimpleDateFormat' import. Should be before 'org.springframework.context.annotation.Configuration'.</span>
+            <code>import java.util.TimeZone;</code>
+                    <span class="badge bg-warning text-dark">Wrong lexicographical order for 'java.util.TimeZone' import. Should be before 'org.springframework.context.annotation.Configuration'.</span>
+            <code> </code>
+            <code>@Configuration</code>
+            <code>public class ObjectMapperFactory {</code>
+            <code>    @Bean</code>
+                    <span class="badge bg-warning text-dark">'method def modifier' has incorrect indentation level 4, expected level should be 2.</span>
+                    <span class="badge bg-warning text-dark">Missing a Javadoc comment.</span>
+            <code>    public ObjectMapper objectMapper() {</code>
+            <code>        return new ObjectMapper()</code>
+                    <span class="badge bg-warning text-dark">'method def' child has incorrect indentation level 8, expected level should be 4.</span>
+            <code>                .registerModule(new AfterburnerModule().setUseValueClassLoader(false))</code>
+            <code>                .configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false)</code>
+            <code>                .setPropertyNamingStrategy(PropertyNamingStrategies.SNAKE_CASE)</code>
+            <code>                .setSerializationInclusion(JsonInclude.Include.NON_NULL)</code>
+            <code>                .disable(SerializationFeature.WRITE_DATES_AS_TIMESTAMPS)</code>
+            <code>                .setDateFormat(dateFormat());</code>
+            <code>    }</code>
+                    <span class="badge bg-warning text-dark">'method def rcurly' has incorrect indentation level 4, expected level should be 2.</span>
+            <code> </code>
+            <code>    private DateFormat dateFormat() {</code>
+                    <span class="badge bg-warning text-dark">'method def modifier' has incorrect indentation level 4, expected level should be 2.</span>
+            <code>        var sdf = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss'Z'");</code>
+                    <span class="badge bg-warning text-dark">'method def' child has incorrect indentation level 8, expected level should be 4.</span>
+                    <span class="badge bg-warning text-dark">When instantiating a SimpleDateFormat object, specify a Locale</span>
+            <code>        sdf.setTimeZone(TimeZone.getTimeZone("UTC"));</code>
+                    <span class="badge bg-warning text-dark">'method def' child has incorrect indentation level 8, expected level should be 4.</span>
+            <code>        return sdf;</code>
+                    <span class="badge bg-warning text-dark">'method def' child has incorrect indentation level 8, expected level should be 4.</span>
+            <code>    }</code>
+                    <span class="badge bg-warning text-dark">'method def rcurly' has incorrect indentation level 4, expected level should be 2.</span>
+            <code>}</code>
+    </pre>
+</div>
+</body>
+</html>

@@ -1,0 +1,134 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <title>Code Quality Report</title>
+    <meta name="description" content="Code Quality Report">
+    <meta name="author" content="Quality Tooling Team">
+
+    <!-- CSS only -->
+    <link href="/Users/rniquefa/fury_shipping-cart-partial-cancel/code_quality_service/resources/bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="/Users/rniquefa/fury_shipping-cart-partial-cancel/code_quality_service/resources/prism/prism.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body>
+<script src="/Users/rniquefa/fury_shipping-cart-partial-cancel/code_quality_service/resources/bootstrap/bootstrap.bundle.min.js" type="text/javascript"></script>
+<script src="/Users/rniquefa/fury_shipping-cart-partial-cancel/code_quality_service/resources/prism/prism.js"></script>
+
+<div class="container">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href=/Users/rniquefa/fury_shipping-cart-partial-cancel/code_quality_service/root.html>root</a></li>
+                    <li class="breadcrumb-item"><a href=/Users/rniquefa/fury_shipping-cart-partial-cancel/code_quality_service/src/src.html>src</a></li>
+                    <li class="breadcrumb-item"><a href=/Users/rniquefa/fury_shipping-cart-partial-cancel/code_quality_service/src/main/main.html>main</a></li>
+                    <li class="breadcrumb-item"><a href=/Users/rniquefa/fury_shipping-cart-partial-cancel/code_quality_service/src/main/java/java.html>java</a></li>
+                    <li class="breadcrumb-item"><a href=/Users/rniquefa/fury_shipping-cart-partial-cancel/code_quality_service/src/main/java/com/com.html>com</a></li>
+                    <li class="breadcrumb-item"><a href=/Users/rniquefa/fury_shipping-cart-partial-cancel/code_quality_service/src/main/java/com/mercadolibre/mercadolibre.html>mercadolibre</a></li>
+                    <li class="breadcrumb-item"><a href=/Users/rniquefa/fury_shipping-cart-partial-cancel/code_quality_service/src/main/java/com/mercadolibre/shipping_cart_partial_cancel/shipping_cart_partial_cancel.html>shipping_cart_partial_cancel</a></li>
+                    <li class="breadcrumb-item active" aria-current="page"><a href=/Users/rniquefa/fury_shipping-cart-partial-cancel/code_quality_service/src/main/java/com/mercadolibre/shipping_cart_partial_cancel/util/util.html>util</a></li>
+        </ol>
+    </nav>
+</div>
+
+<div class="container">
+    <h2>BuildPackConfigUtils.java</h2>
+    <span class="badge bg-warning text-dark">Total issues: 19</span>
+    <span class="badge bg-warning text-dark">Complexity: 7</span>
+    <hr>
+</div>
+
+<div class="container">
+    <pre class="language-java line-numbers">
+            <code>package com.mercadolibre.shipping_cart_partial_cancel.util;</code>
+                    <span class="badge bg-warning text-dark">Package name 'com.mercadolibre.shipping_cart_partial_cancel.util' must match pattern '^[a-z]+(\.[a-z][a-z0-9]*)*$'.</span>
+            <code> </code>
+            <code>import static com.mercadolibre.restclient.log.LogUtil.log;</code>
+            <code> </code>
+            <code>import com.mercadolibre.routing.RoutingHelper;</code>
+            <code>import com.mercadolibre.shipping_cart_partial_cancel.constants.UserType;</code>
+            <code>import com.mercadolibre.shipping_cart_partial_cancel.dtos.output.PackConfig;</code>
+            <code>import com.mercadolibre.shipping_cart_partial_cancel.dtos.process.Snapshot;</code>
+            <code>import com.mercadolibre.shipping_cart_partial_cancel.exceptions.rest.BadRequestException;</code>
+            <code>import com.mercadolibre.shipping_cart_partial_cancel.services.providers.ApiCallContext;</code>
+            <code>import java.util.List;</code>
+            <code>import java.util.Optional;</code>
+            <code> </code>
+            <code>/**</code>
+            <code> *  Utility class for buildPackConfig.</code>
+            <code> */</code>
+            <code>public final class BuildPackConfigUtils {</code>
+            <code> </code>
+            <code>    private BuildPackConfigUtils() { }</code>
+                    <span class="badge bg-warning text-dark">'ctor def modifier' has incorrect indentation level 4, expected level should be 2.</span>
+            <code> </code>
+            <code>    /**</code>
+            <code>     * Given the snapshot returns the corresponding buyer.</code>
+            <code>     * @param snapshot snapshot.</code>
+            <code>     * @return PackConfig.Buyer.</code>
+            <code>     * @throws BadRequestException if buyerId is null.</code>
+            <code>     */</code>
+            <code>    public static PackConfig.Buyer getBuyerInSnapshot(Snapshot snapshot) throws BadRequestException {</code>
+                    <span class="badge bg-warning text-dark">'method def modifier' has incorrect indentation level 4, expected level should be 2.</span>
+            <code>        if (snapshot.getRawData().getBuyer() != null && snapshot.getRawData().getBuyer().getId() != null) {</code>
+                    <span class="badge bg-warning text-dark">'if' has incorrect indentation level 8, expected level should be 4.</span>
+            <code>            return snapshot.getRawData().getBuyer();</code>
+                    <span class="badge bg-warning text-dark">'if' child has incorrect indentation level 12, expected level should be 6.</span>
+            <code>        }</code>
+                    <span class="badge bg-warning text-dark">'if rcurly' has incorrect indentation level 8, expected level should be 4.</span>
+            <code>        Long buyerId = findBuyerIdInSnapshot(snapshot);</code>
+                    <span class="badge bg-warning text-dark">'method def' child has incorrect indentation level 8, expected level should be 4.</span>
+            <code>        if (buyerId != null) {</code>
+                    <span class="badge bg-warning text-dark">'if' has incorrect indentation level 8, expected level should be 4.</span>
+            <code>            return PackConfig.Buyer.builder().id(String.valueOf(findBuyerIdInSnapshot(snapshot))).build();</code>
+                    <span class="badge bg-warning text-dark">'if' child has incorrect indentation level 12, expected level should be 6.</span>
+            <code>        }</code>
+                    <span class="badge bg-warning text-dark">'if rcurly' has incorrect indentation level 8, expected level should be 4.</span>
+            <code>        throw new BadRequestException(ApiCallContext.builder().build(), "error in buyer data", "");</code>
+                    <span class="badge bg-warning text-dark">'method def' child has incorrect indentation level 8, expected level should be 4.</span>
+            <code>    }</code>
+                    <span class="badge bg-warning text-dark">'method def rcurly' has incorrect indentation level 4, expected level should be 2.</span>
+            <code> </code>
+            <code>    /**</code>
+            <code>     * When the buyer object in snapshot is null, we search in userCost for the corresponding buyer_id.</code>
+            <code>     * @param snapshot snapshot.</code>
+            <code>     * @return Long buyerId.</code>
+            <code>     */</code>
+            <code>    public static Long findBuyerIdInSnapshot(Snapshot snapshot) {</code>
+                    <span class="badge bg-warning text-dark">'method def modifier' has incorrect indentation level 4, expected level should be 2.</span>
+            <code>        return Optional.ofNullable(snapshot.getRawData())</code>
+                    <span class="badge bg-warning text-dark">'method def' child has incorrect indentation level 8, expected level should be 4.</span>
+            <code>          .flatMap(rawData -> rawData.getShippingConfigs().stream().findFirst())</code>
+            <code>          .flatMap(shippingConfig -> shippingConfig.getOptions().stream().findFirst())</code>
+            <code>          .flatMap(shippingOptions -> Optional.of(shippingOptions.getUsersCosts()))</code>
+            <code>          .orElse(List.of()).stream()</code>
+            <code>          .filter(userCost -> userCost.getUserType().equals(UserType.RECEIVER))</code>
+            <code>          .findFirst()</code>
+            <code>          .flatMap(userCost -> Optional.ofNullable(userCost.getUserId()))</code>
+            <code>          .orElse(null);</code>
+            <code>    }</code>
+                    <span class="badge bg-warning text-dark">'method def rcurly' has incorrect indentation level 4, expected level should be 2.</span>
+            <code> </code>
+            <code>    /**</code>
+            <code>     * Utility method to log unexpected errors.</code>
+            <code>     * @param message message to mark the origin of the error.</code>
+            <code>     * @param error the error to log.</code>
+            <code>     */</code>
+            <code>    public static void logUnexpectedError(String message, Throwable error) {</code>
+                    <span class="badge bg-warning text-dark">'method def modifier' has incorrect indentation level 4, expected level should be 2.</span>
+            <code>        String errorDetails = "{error_class: " + error.getClass()</code>
+                    <span class="badge bg-warning text-dark">'method def' child has incorrect indentation level 8, expected level should be 4.</span>
+            <code>                        + ", error_message: " + error.getMessage()</code>
+            <code>                        + ", error_cause: " + error.getCause()</code>
+            <code>                        + ", error_stack_trace: " + error.getStackTrace()</code>
+            <code>                        + ", headers: " + RoutingHelper.getOrCreateMeliContext().getRequestId() + "}";</code>
+            <code>        log.info("[Unexpected Error when {}. Details: {}]", message, errorDetails);</code>
+                    <span class="badge bg-warning text-dark">'method def' child has incorrect indentation level 8, expected level should be 4.</span>
+            <code>    }</code>
+                    <span class="badge bg-warning text-dark">'method def rcurly' has incorrect indentation level 4, expected level should be 2.</span>
+            <code>}</code>
+    </pre>
+</div>
+</body>
+</html>
