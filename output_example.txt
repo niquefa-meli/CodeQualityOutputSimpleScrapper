@@ -1,0 +1,594 @@
+Processing file: /Users/rniquefa/PythonScrapper/PythonCodeQualityScraper/code_quality_output_folder/Application.java.html. span tags: 19
+/Users/rniquefa/PythonScrapper/PythonCodeQualityScraper/code_quality_output_folder/Application.java.html
+complexity: 2, issue_count: 17
+1 : Package name 'com.mercadolibre.shipping_cart_partial_cancel' must match pattern '^[a-z]+(\.[a-z][a-z-]*)*$'.
+8 : Line contains a tab character.
+1 : 'member def modifier' has incorrect indentation level , expected level should be .
+2 : 'method def modifier' has incorrect indentation level , expected level should be .
+3 : 'method def' child has incorrect indentation level , expected level should be .
+2 : 'method def rcurly' has incorrect indentation level , expected level should be .
+
+Processing file: /Users/rniquefa/PythonScrapper/PythonCodeQualityScraper/code_quality_output_folder/util/EnvVarProvider.java.html. span tags: 16
+/Users/rniquefa/PythonScrapper/PythonCodeQualityScraper/code_quality_output_folder/util/EnvVarProvider.java.html
+complexity: 3, issue_count: 14
+1 : Package name 'com.mercadolibre.shipping_cart_partial_cancel.util' must match pattern '^[a-z]+(\.[a-z][a-z-]*)*$'.
+1 : All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+3 : 'method def modifier' has incorrect indentation level , expected level should be .
+1 : Missing a Javadoc comment.
+5 : 'method def' child has incorrect indentation level , expected level should be .
+3 : 'method def rcurly' has incorrect indentation level , expected level should be .
+
+Processing file: /Users/rniquefa/PythonScrapper/PythonCodeQualityScraper/code_quality_output_folder/util/ScopeUtils.java.html. span tags: 21
+/Users/rniquefa/PythonScrapper/PythonCodeQualityScraper/code_quality_output_folder/util/ScopeUtils.java.html
+complexity: 3, issue_count: 19
+1 : Package name 'com.mercadolibre.shipping_cart_partial_cancel.util' must match pattern '^[a-z]+(\.[a-z][a-z-]*)*$'.
+1 : Extra separation in import group before 'java.util.Optional'
+1 : All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+3 : 'member def modifier' has incorrect indentation level , expected level should be .
+3 : 'method def modifier' has incorrect indentation level , expected level should be .
+1 : Missing a Javadoc comment.
+5 : 'method def' child has incorrect indentation level , expected level should be .
+3 : 'method def rcurly' has incorrect indentation level , expected level should be .
+1 : Assigning an Object to null is a code smell.  Consider refactoring.
+
+Processing file: /Users/rniquefa/PythonScrapper/PythonCodeQualityScraper/code_quality_output_folder/util/BuildPackConfigUtils.java.html. span tags: 21
+/Users/rniquefa/PythonScrapper/PythonCodeQualityScraper/code_quality_output_folder/util/BuildPackConfigUtils.java.html
+complexity: 7, issue_count: 19
+1 : Package name 'com.mercadolibre.shipping_cart_partial_cancel.util' must match pattern '^[a-z]+(\.[a-z][a-z-]*)*$'.
+1 : 'ctor def modifier' has incorrect indentation level , expected level should be .
+3 : 'method def modifier' has incorrect indentation level , expected level should be .
+2 : 'if' has incorrect indentation level , expected level should be .
+2 : 'if' child has incorrect indentation level , expected level should be .
+2 : 'if rcurly' has incorrect indentation level , expected level should be .
+5 : 'method def' child has incorrect indentation level , expected level should be .
+3 : 'method def rcurly' has incorrect indentation level , expected level should be .
+
+Processing file: /Users/rniquefa/PythonScrapper/PythonCodeQualityScraper/code_quality_output_folder/constants/EnvironmentType.java.html. span tags: 10
+/Users/rniquefa/PythonScrapper/PythonCodeQualityScraper/code_quality_output_folder/constants/EnvironmentType.java.html
+complexity: 3, issue_count: 8
+1 : Package name 'com.mercadolibre.shipping_cart_partial_cancel.constants' must match pattern '^[a-z]+(\.[a-z][a-z-]*)*$'.
+2 : 'method def modifier' has incorrect indentation level , expected level should be .
+2 : 'method def' child has incorrect indentation level , expected level should be .
+1 : When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+2 : 'method def rcurly' has incorrect indentation level , expected level should be .
+
+Processing file: /Users/rniquefa/PythonScrapper/PythonCodeQualityScraper/code_quality_output_folder/constants/DestinationType.java.html. span tags: 5
+/Users/rniquefa/PythonScrapper/PythonCodeQualityScraper/code_quality_output_folder/constants/DestinationType.java.html
+complexity: 0, issue_count: 3
+1 : Package name 'com.mercadolibre.shipping_cart_partial_cancel.constants' must match pattern '^[a-z]+(\.[a-z][a-z-]*)*$'.
+2 : 'member def modifier' has incorrect indentation level , expected level should be .
+
+Processing file: /Users/rniquefa/PythonScrapper/PythonCodeQualityScraper/code_quality_output_folder/constants/Tags.java.html. span tags: 4
+/Users/rniquefa/PythonScrapper/PythonCodeQualityScraper/code_quality_output_folder/constants/Tags.java.html
+complexity: 0, issue_count: 2
+1 : Package name 'com.mercadolibre.shipping_cart_partial_cancel.constants' must match pattern '^[a-z]+(\.[a-z][a-z-]*)*$'.
+1 : 'member def modifier' has incorrect indentation level , expected level should be .
+
+Processing file: /Users/rniquefa/PythonScrapper/PythonCodeQualityScraper/code_quality_output_folder/constants/Source.java.html. span tags: 4
+/Users/rniquefa/PythonScrapper/PythonCodeQualityScraper/code_quality_output_folder/constants/Source.java.html
+complexity: 0, issue_count: 2
+1 : Package name 'com.mercadolibre.shipping_cart_partial_cancel.constants' must match pattern '^[a-z]+(\.[a-z][a-z-]*)*$'.
+1 : 'member def modifier' has incorrect indentation level , expected level should be .
+
+Processing file: /Users/rniquefa/PythonScrapper/PythonCodeQualityScraper/code_quality_output_folder/constants/UserType.java.html. span tags: 9
+/Users/rniquefa/PythonScrapper/PythonCodeQualityScraper/code_quality_output_folder/constants/UserType.java.html
+complexity: 0, issue_count: 7
+1 : Package name 'com.mercadolibre.shipping_cart_partial_cancel.constants' must match pattern '^[a-z]+(\.[a-z][a-z-]*)*$'.
+2 : 'member def modifier' has incorrect indentation level , expected level should be .
+1 : Static variable name 'SENDER' must match pattern '^[a-z]([a-z-][a-zA-Z-]*)?$'.
+1 : com.mercadolibre.shipping_cart_partial_cancel.constants.UserType.SENDER isn't final but should be
+1 : Static variable name 'RECEIVER' must match pattern '^[a-z]([a-z-][a-zA-Z-]*)?$'.
+1 : com.mercadolibre.shipping_cart_partial_cancel.constants.UserType.RECEIVER isn't final but should be
+
+Processing file: /Users/rniquefa/PythonScrapper/PythonCodeQualityScraper/code_quality_output_folder/exceptions/ResponseParseException.java.html. span tags: 12
+/Users/rniquefa/PythonScrapper/PythonCodeQualityScraper/code_quality_output_folder/exceptions/ResponseParseException.java.html
+complexity: 1, issue_count: 10
+1 : Package name 'com.mercadolibre.shipping_cart_partial_cancel.exceptions' must match pattern '^[a-z]+(\.[a-z][a-z-]*)*$'.
+1 : Classes implementing Serializable should set a serialVersionUID
+2 : 'member def modifier' has incorrect indentation level , expected level should be .
+1 : 'ctor def modifier' has incorrect indentation level , expected level should be .
+1 : Missing a Javadoc comment.
+3 : 'ctor def' child has incorrect indentation level , expected level should be .
+1 : 'ctor def rcurly' has incorrect indentation level , expected level should be .
+
+Processing file: /Users/rniquefa/PythonScrapper/PythonCodeQualityScraper/code_quality_output_folder/exceptions/InvalidOptionException.java.html. span tags: 8
+/Users/rniquefa/PythonScrapper/PythonCodeQualityScraper/code_quality_output_folder/exceptions/InvalidOptionException.java.html
+complexity: 1, issue_count: 6
+1 : Package name 'com.mercadolibre.shipping_cart_partial_cancel.exceptions' must match pattern '^[a-z]+(\.[a-z][a-z-]*)*$'.
+1 : Classes implementing Serializable should set a serialVersionUID
+1 : 'member def modifier' has incorrect indentation level , expected level should be .
+1 : 'ctor def modifier' has incorrect indentation level , expected level should be .
+1 : 'ctor def' child has incorrect indentation level , expected level should be .
+1 : 'ctor def rcurly' has incorrect indentation level , expected level should be .
+
+Processing file: /Users/rniquefa/PythonScrapper/PythonCodeQualityScraper/code_quality_output_folder/exceptions/rest/UnauthorizedRequestException.java.html. span tags: 6
+/Users/rniquefa/PythonScrapper/PythonCodeQualityScraper/code_quality_output_folder/exceptions/rest/UnauthorizedRequestException.java.html
+complexity: 1, issue_count: 4
+1 : Package name 'com.mercadolibre.shipping_cart_partial_cancel.exceptions.rest' must match pattern '^[a-z]+(\.[a-z][a-z-]*)*$'.
+1 : 'ctor def modifier' has incorrect indentation level , expected level should be .
+1 : 'ctor def' child has incorrect indentation level , expected level should be .
+1 : 'ctor def rcurly' has incorrect indentation level , expected level should be .
+
+Processing file: /Users/rniquefa/PythonScrapper/PythonCodeQualityScraper/code_quality_output_folder/exceptions/rest/DependencyConflictException.java.html. span tags: 6
+/Users/rniquefa/PythonScrapper/PythonCodeQualityScraper/code_quality_output_folder/exceptions/rest/DependencyConflictException.java.html
+complexity: 1, issue_count: 4
+1 : Package name 'com.mercadolibre.shipping_cart_partial_cancel.exceptions.rest' must match pattern '^[a-z]+(\.[a-z][a-z-]*)*$'.
+1 : 'ctor def modifier' has incorrect indentation level , expected level should be .
+1 : 'ctor def' child has incorrect indentation level , expected level should be .
+1 : 'ctor def rcurly' has incorrect indentation level , expected level should be .
+
+Processing file: /Users/rniquefa/PythonScrapper/PythonCodeQualityScraper/code_quality_output_folder/exceptions/rest/ApiCallException.java.html. span tags: 39
+/Users/rniquefa/PythonScrapper/PythonCodeQualityScraper/code_quality_output_folder/exceptions/rest/ApiCallException.java.html
+complexity: 1, issue_count: 37
+1 : Package name 'com.mercadolibre.shipping_cart_partial_cancel.exceptions.rest' must match pattern '^[a-z]+(\.[a-z][a-z-]*)*$'.
+1 : Extra separation in import group before 'java.util.Map'
+1 : Wrong lexicographical order for 'java.util.Map' import. Should be before 'org.springframework.http.HttpStatus'.
+1 : Classes implementing Serializable should set a serialVersionUID
+16 : Line contains a tab character.
+7 : 'member def modifier' has incorrect indentation level , expected level should be .
+1 : 'ctor def modifier' has incorrect indentation level , expected level should be .
+1 : Missing a Javadoc comment.
+7 : 'ctor def' child has incorrect indentation level , expected level should be .
+1 : 'ctor def rcurly' has incorrect indentation level , expected level should be .
+
+Processing file: /Users/rniquefa/PythonScrapper/PythonCodeQualityScraper/code_quality_output_folder/exceptions/rest/BadRequestException.java.html. span tags: 6
+/Users/rniquefa/PythonScrapper/PythonCodeQualityScraper/code_quality_output_folder/exceptions/rest/BadRequestException.java.html
+complexity: 1, issue_count: 4
+1 : Package name 'com.mercadolibre.shipping_cart_partial_cancel.exceptions.rest' must match pattern '^[a-z]+(\.[a-z][a-z-]*)*$'.
+1 : 'ctor def modifier' has incorrect indentation level , expected level should be .
+1 : 'ctor def' child has incorrect indentation level , expected level should be .
+1 : 'ctor def rcurly' has incorrect indentation level , expected level should be .
+
+Processing file: /Users/rniquefa/PythonScrapper/PythonCodeQualityScraper/code_quality_output_folder/exceptions/rest/ForbiddenRequestException.java.html. span tags: 6
+/Users/rniquefa/PythonScrapper/PythonCodeQualityScraper/code_quality_output_folder/exceptions/rest/ForbiddenRequestException.java.html
+complexity: 1, issue_count: 4
+1 : Package name 'com.mercadolibre.shipping_cart_partial_cancel.exceptions.rest' must match pattern '^[a-z]+(\.[a-z][a-z-]*)*$'.
+1 : 'ctor def modifier' has incorrect indentation level , expected level should be .
+1 : 'ctor def' child has incorrect indentation level , expected level should be .
+1 : 'ctor def rcurly' has incorrect indentation level , expected level should be .
+
+Processing file: /Users/rniquefa/PythonScrapper/PythonCodeQualityScraper/code_quality_output_folder/dtos/input/CancelRequest.java.html. span tags: 11
+/Users/rniquefa/PythonScrapper/PythonCodeQualityScraper/code_quality_output_folder/dtos/input/CancelRequest.java.html
+complexity: 0, issue_count: 9
+1 : Package name 'com.mercadolibre.shipping_cart_partial_cancel.dtos.input' must match pattern '^[a-z]+(\.[a-z][a-z-]*)*$'.
+1 : Extra separation in import group before 'java.util.List'
+1 : Wrong lexicographical order for 'java.util.List' import. Should be before 'lombok.ToString'.
+6 : 'member def modifier' has incorrect indentation level , expected level should be .
+
+Processing file: /Users/rniquefa/PythonScrapper/PythonCodeQualityScraper/code_quality_output_folder/dtos/input/PurchaseItem.java.html. span tags: 9
+/Users/rniquefa/PythonScrapper/PythonCodeQualityScraper/code_quality_output_folder/dtos/input/PurchaseItem.java.html
+complexity: 0, issue_count: 7
+1 : Package name 'com.mercadolibre.shipping_cart_partial_cancel.dtos.input' must match pattern '^[a-z]+(\.[a-z][a-z-]*)*$'.
+6 : 'member def modifier' has incorrect indentation level , expected level should be .
+
+Processing file: /Users/rniquefa/PythonScrapper/PythonCodeQualityScraper/code_quality_output_folder/dtos/output/TrashPackConfig.java.html. span tags: 24
+/Users/rniquefa/PythonScrapper/PythonCodeQualityScraper/code_quality_output_folder/dtos/output/TrashPackConfig.java.html
+complexity: 0, issue_count: 22
+1 : Package name 'com.mercadolibre.shipping_cart_partial_cancel.dtos.output' must match pattern '^[a-z]+(\.[a-z][a-z-]*)*$'.
+1 : Extra separation in import group before 'java.math.BigDecimal'
+1 : Wrong lexicographical order for 'java.math.BigDecimal' import. Should be before 'lombok.ToString'.
+5 : 'member def modifier' has incorrect indentation level , expected level should be .
+12 : 'class def modifier' has incorrect indentation level , expected level should be .
+2 : 'class def rcurly' has incorrect indentation level , expected level should be .
+
+Processing file: /Users/rniquefa/PythonScrapper/PythonCodeQualityScraper/code_quality_output_folder/dtos/output/CancellationResult.java.html. span tags: 5
+/Users/rniquefa/PythonScrapper/PythonCodeQualityScraper/code_quality_output_folder/dtos/output/CancellationResult.java.html
+complexity: 0, issue_count: 3
+1 : Package name 'com.mercadolibre.shipping_cart_partial_cancel.dtos.output' must match pattern '^[a-z]+(\.[a-z][a-z-]*)*$'.
+2 : 'member def modifier' has incorrect indentation level , expected level should be .
+
+Processing file: /Users/rniquefa/PythonScrapper/PythonCodeQualityScraper/code_quality_output_folder/dtos/output/PackConfig.java.html. span tags: 157
+/Users/rniquefa/PythonScrapper/PythonCodeQualityScraper/code_quality_output_folder/dtos/output/PackConfig.java.html
+complexity: 0, issue_count: 155
+1 : Package name 'com.mercadolibre.shipping_cart_partial_cancel.dtos.output' must match pattern '^[a-z]+(\.[a-z][a-z-]*)*$'.
+1 : Using the '.*' form of import should be avoided - lombok.*.
+1 : Unused import 'lombok.*'
+1 : Extra separation in import group before 'java.math.BigDecimal'
+1 : Wrong lexicographical order for 'java.math.BigDecimal' import. Should be before 'lombok.*'.
+1 : Wrong lexicographical order for 'java.util.List' import. Should be before 'lombok.*'.
+66 : 'member def modifier' has incorrect indentation level , expected level should be .
+71 : 'class def modifier' has incorrect indentation level , expected level should be .
+12 : 'class def rcurly' has incorrect indentation level , expected level should be .
+
+Processing file: /Users/rniquefa/PythonScrapper/PythonCodeQualityScraper/code_quality_output_folder/dtos/errors/DependencyError.java.html. span tags: 5
+/Users/rniquefa/PythonScrapper/PythonCodeQualityScraper/code_quality_output_folder/dtos/errors/DependencyError.java.html
+complexity: 0, issue_count: 3
+1 : Package name 'com.mercadolibre.shipping_cart_partial_cancel.dtos.errors' must match pattern '^[a-z]+(\.[a-z][a-z-]*)*$'.
+2 : 'member def modifier' has incorrect indentation level , expected level should be .
+
+Processing file: /Users/rniquefa/PythonScrapper/PythonCodeQualityScraper/code_quality_output_folder/dtos/errors/ApiCallError.java.html. span tags: 23
+/Users/rniquefa/PythonScrapper/PythonCodeQualityScraper/code_quality_output_folder/dtos/errors/ApiCallError.java.html
+complexity: 3, issue_count: 21
+1 : Package name 'com.mercadolibre.shipping_cart_partial_cancel.dtos.errors' must match pattern '^[a-z]+(\.[a-z][a-z-]*)*$'.
+1 : Extra separation in import group before 'java.util.Map'
+1 : Wrong lexicographical order for 'java.util.Map' import. Should be before 'org.springframework.http.HttpStatus'.
+6 : 'member def modifier' has incorrect indentation level , expected level should be .
+1 : 'ctor def modifier' has incorrect indentation level , expected level should be .
+1 : Missing a Javadoc comment.
+7 : 'ctor def' child has incorrect indentation level , expected level should be .
+2 : Assigning an Object to null is a code smell.  Consider refactoring.
+1 : 'ctor def rcurly' has incorrect indentation level , expected level should be .
+
+Processing file: /Users/rniquefa/PythonScrapper/PythonCodeQualityScraper/code_quality_output_folder/dtos/errors/GenericError.java.html. span tags: 17
+/Users/rniquefa/PythonScrapper/PythonCodeQualityScraper/code_quality_output_folder/dtos/errors/GenericError.java.html
+complexity: 1, issue_count: 15
+1 : Package name 'com.mercadolibre.shipping_cart_partial_cancel.dtos.errors' must match pattern '^[a-z]+(\.[a-z][a-z-]*)*$'.
+1 : Extra separation in import group before 'java.util.List'
+1 : Wrong lexicographical order for 'java.util.List' import. Should be before 'org.springframework.http.HttpStatus'.
+1 : Wrong lexicographical order for 'java.util.stream.Collectors' import. Should be before 'org.springframework.http.HttpStatus'.
+4 : 'member def modifier' has incorrect indentation level , expected level should be .
+1 : 'ctor def modifier' has incorrect indentation level , expected level should be .
+1 : Missing a Javadoc comment.
+4 : 'ctor def' child has incorrect indentation level , expected level should be .
+1 : 'ctor def rcurly' has incorrect indentation level , expected level should be .
+
+Processing file: /Users/rniquefa/PythonScrapper/PythonCodeQualityScraper/code_quality_output_folder/dtos/errors/ResponseParseError.java.html. span tags: 11
+/Users/rniquefa/PythonScrapper/PythonCodeQualityScraper/code_quality_output_folder/dtos/errors/ResponseParseError.java.html
+complexity: 1, issue_count: 9
+1 : Package name 'com.mercadolibre.shipping_cart_partial_cancel.dtos.errors' must match pattern '^[a-z]+(\.[a-z][a-z-]*)*$'.
+2 : 'member def modifier' has incorrect indentation level , expected level should be .
+1 : 'ctor def modifier' has incorrect indentation level , expected level should be .
+1 : Missing a Javadoc comment.
+3 : 'ctor def' child has incorrect indentation level , expected level should be .
+1 : 'ctor def rcurly' has incorrect indentation level , expected level should be .
+
+Processing file: /Users/rniquefa/PythonScrapper/PythonCodeQualityScraper/code_quality_output_folder/dtos/process/Snapshot.java.html. span tags: 45
+/Users/rniquefa/PythonScrapper/PythonCodeQualityScraper/code_quality_output_folder/dtos/process/Snapshot.java.html
+complexity: 0, issue_count: 43
+1 : Package name 'com.mercadolibre.shipping_cart_partial_cancel.dtos.process' must match pattern '^[a-z]+(\.[a-z][a-z-]*)*$'.
+1 : Using the '.*' form of import should be avoided - lombok.*.
+1 : Unused import 'lombok.*'
+1 : Extra separation in import group before 'java.util.List'
+1 : Wrong lexicographical order for 'java.util.List' import. Should be before 'lombok.*'.
+1 : Import statement for 'com.mercadolibre.shipping_cart_partial_cancel.dtos.output.PackConfig.Buyer' is in the wrong order. Should be in the 'STATIC' group, expecting not assigned imports on this line.
+1 : Import statement for 'com.mercadolibre.shipping_cart_partial_cancel.dtos.output.PackConfig.Dimensions' is in the wrong order. Should be in the 'STATIC' group, expecting not assigned imports on this line.
+1 : Import statement for 'com.mercadolibre.shipping_cart_partial_cancel.dtos.output.PackConfig.ShippingOption' is in the wrong order. Should be in the 'STATIC' group, expecting not assigned imports on this line.
+11 : 'member def modifier' has incorrect indentation level , expected level should be .
+20 : 'class def modifier' has incorrect indentation level , expected level should be .
+4 : 'class def rcurly' has incorrect indentation level , expected level should be .
+
+Processing file: /Users/rniquefa/PythonScrapper/PythonCodeQualityScraper/code_quality_output_folder/dtos/process/PostShipmentCalculatorRequest.java.html. span tags: 8
+/Users/rniquefa/PythonScrapper/PythonCodeQualityScraper/code_quality_output_folder/dtos/process/PostShipmentCalculatorRequest.java.html
+complexity: 0, issue_count: 6
+1 : Package name 'com.mercadolibre.shipping_cart_partial_cancel.dtos.process' must match pattern '^[a-z]+(\.[a-z][a-z-]*)*$'.
+1 : Extra separation in import group before 'java.util.List'
+1 : Wrong lexicographical order for 'java.util.List' import. Should be before 'lombok.NoArgsConstructor'.
+3 : 'member def modifier' has incorrect indentation level , expected level should be .
+
+Processing file: /Users/rniquefa/PythonScrapper/PythonCodeQualityScraper/code_quality_output_folder/dtos/process/CalculatorItem.java.html. span tags: 6
+/Users/rniquefa/PythonScrapper/PythonCodeQualityScraper/code_quality_output_folder/dtos/process/CalculatorItem.java.html
+complexity: 0, issue_count: 4
+1 : Package name 'com.mercadolibre.shipping_cart_partial_cancel.dtos.process' must match pattern '^[a-z]+(\.[a-z][a-z-]*)*$'.
+3 : 'member def modifier' has incorrect indentation level , expected level should be .
+
+Processing file: /Users/rniquefa/PythonScrapper/PythonCodeQualityScraper/code_quality_output_folder/dtos/process/PreShipmentCalculatorRequest.java.html. span tags: 37
+/Users/rniquefa/PythonScrapper/PythonCodeQualityScraper/code_quality_output_folder/dtos/process/PreShipmentCalculatorRequest.java.html
+complexity: 0, issue_count: 35
+1 : Package name 'com.mercadolibre.shipping_cart_partial_cancel.dtos.process' must match pattern '^[a-z]+(\.[a-z][a-z-]*)*$'.
+1 : Extra separation in import group before 'java.math.BigDecimal'
+1 : Wrong lexicographical order for 'java.math.BigDecimal' import. Should be before 'lombok.ToString'.
+1 : Wrong lexicographical order for 'java.util.List' import. Should be before 'lombok.ToString'.
+12 : 'member def modifier' has incorrect indentation level , expected level should be .
+16 : 'class def modifier' has incorrect indentation level , expected level should be .
+3 : 'class def rcurly' has incorrect indentation level , expected level should be .
+
+Processing file: /Users/rniquefa/PythonScrapper/PythonCodeQualityScraper/code_quality_output_folder/dtos/process/CalculatorSnapshot.java.html. span tags: 14
+/Users/rniquefa/PythonScrapper/PythonCodeQualityScraper/code_quality_output_folder/dtos/process/CalculatorSnapshot.java.html
+complexity: 0, issue_count: 12
+1 : Package name 'com.mercadolibre.shipping_cart_partial_cancel.dtos.process' must match pattern '^[a-z]+(\.[a-z][a-z-]*)*$'.
+1 : Using the '.*' form of import should be avoided - lombok.*.
+1 : Unused import 'lombok.*'
+1 : Extra separation in import group before 'java.util.List'
+1 : Wrong lexicographical order for 'java.util.List' import. Should be before 'lombok.*'.
+1 : Import statement for 'com.mercadolibre.shipping_cart_partial_cancel.dtos.output.PackConfig.Buyer' is in the wrong order. Should be in the 'STATIC' group, expecting not assigned imports on this line.
+1 : Import statement for 'com.mercadolibre.shipping_cart_partial_cancel.dtos.process.Snapshot.Destination' is in the wrong order. Should be in the 'STATIC' group, expecting not assigned imports on this line.
+1 : Import statement for 'com.mercadolibre.shipping_cart_partial_cancel.dtos.process.Snapshot.ShippingConfig' is in the wrong order. Should be in the 'STATIC' group, expecting not assigned imports on this line.
+4 : 'member def modifier' has incorrect indentation level , expected level should be .
+
+Processing file: /Users/rniquefa/PythonScrapper/PythonCodeQualityScraper/code_quality_output_folder/factories/PackConfigFactory.java.html. span tags: 45
+/Users/rniquefa/PythonScrapper/PythonCodeQualityScraper/code_quality_output_folder/factories/PackConfigFactory.java.html
+complexity: 9, issue_count: 43
+1 : Package name 'com.mercadolibre.shipping_cart_partial_cancel.factories' must match pattern '^[a-z]+(\.[a-z][a-z-]*)*$'.
+1 : Extra separation in import group before 'java.util.List'
+1 : Wrong lexicographical order for 'java.util.List' import. Should be before 'org.springframework.stereotype.Service'.
+1 : 'member def modifier' has incorrect indentation level , expected level should be .
+5 : 'method def modifier' has incorrect indentation level , expected level should be .
+3 : 'try' has incorrect indentation level , expected level should be .
+9 : 'try' child has incorrect indentation level , expected level should be .
+3 : 'block' child has incorrect indentation level , expected level should be .
+3 : 'try rcurly' has incorrect indentation level , expected level should be .
+6 : 'catch' child has incorrect indentation level , expected level should be .
+3 : 'catch rcurly' has incorrect indentation level , expected level should be .
+5 : 'method def rcurly' has incorrect indentation level , expected level should be .
+2 : 'method def' child has incorrect indentation level , expected level should be .
+
+Processing file: /Users/rniquefa/PythonScrapper/PythonCodeQualityScraper/code_quality_output_folder/factories/CalculatorRequestFactory.java.html. span tags: 49
+/Users/rniquefa/PythonScrapper/PythonCodeQualityScraper/code_quality_output_folder/factories/CalculatorRequestFactory.java.html
+complexity: 8, issue_count: 47
+1 : Package name 'com.mercadolibre.shipping_cart_partial_cancel.factories' must match pattern '^[a-z]+(\.[a-z][a-z-]*)*$'.
+1 : Extra separation in import group before 'java.math.BigDecimal'
+1 : Wrong lexicographical order for 'java.math.BigDecimal' import. Should be before 'org.springframework.stereotype.Service'.
+1 : Wrong lexicographical order for 'java.util.List' import. Should be before 'org.springframework.stereotype.Service'.
+1 : Wrong lexicographical order for 'java.util.Optional' import. Should be before 'org.springframework.stereotype.Service'.
+1 : Wrong lexicographical order for 'java.util.stream.Collectors' import. Should be before 'org.springframework.stereotype.Service'.
+6 : 'method def modifier' has incorrect indentation level , expected level should be .
+3 : Missing a Javadoc comment.
+23 : 'method def' child has incorrect indentation level , expected level should be .
+6 : 'method def rcurly' has incorrect indentation level , expected level should be .
+1 : 'if' has incorrect indentation level , expected level should be .
+1 : 'if' child has incorrect indentation level , expected level should be .
+1 : 'if rcurly' has incorrect indentation level , expected level should be .
+
+Processing file: /Users/rniquefa/PythonScrapper/PythonCodeQualityScraper/code_quality_output_folder/configs/PoolProperties.java.html. span tags: 40
+/Users/rniquefa/PythonScrapper/PythonCodeQualityScraper/code_quality_output_folder/configs/PoolProperties.java.html
+complexity: 4, issue_count: 38
+1 : Package name 'com.mercadolibre.shipping_cart_partial_cancel.configs' must match pattern '^[a-z]+(\.[a-z][a-z-]*)*$'.
+1 : Extra separation in import group before 'java.util.Optional'
+1 : Wrong lexicographical order for 'java.util.Optional' import. Should be before 'lombok.RequiredArgsConstructor'.
+18 : 'member def modifier' has incorrect indentation level , expected level should be .
+4 : 'method def modifier' has incorrect indentation level , expected level should be .
+2 : Missing a Javadoc comment.
+4 : 'method def' child has incorrect indentation level , expected level should be .
+4 : 'method def rcurly' has incorrect indentation level , expected level should be .
+2 : 'class def modifier' has incorrect indentation level , expected level should be .
+1 : 'class def rcurly' has incorrect indentation level , expected level should be .
+
+Processing file: /Users/rniquefa/PythonScrapper/PythonCodeQualityScraper/code_quality_output_folder/configs/RestClientConfig.java.html. span tags: 11
+/Users/rniquefa/PythonScrapper/PythonCodeQualityScraper/code_quality_output_folder/configs/RestClientConfig.java.html
+complexity: 1, issue_count: 9
+1 : Package name 'com.mercadolibre.shipping_cart_partial_cancel.configs' must match pattern '^[a-z]+(\.[a-z][a-z-]*)*$'.
+1 : Extra separation in import group before 'java.util.List'
+1 : Wrong lexicographical order for 'java.util.List' import. Should be before 'org.springframework.boot.context.properties.ConstructorBinding'.
+1 : Wrong lexicographical order for 'java.util.stream.Collectors' import. Should be before 'org.springframework.boot.context.properties.ConstructorBinding'.
+1 : 'member def modifier' has incorrect indentation level , expected level should be .
+1 : 'ctor def modifier' has incorrect indentation level , expected level should be .
+1 : Missing a Javadoc comment.
+1 : 'ctor def' child has incorrect indentation level , expected level should be .
+1 : 'ctor def rcurly' has incorrect indentation level , expected level should be .
+
+Processing file: /Users/rniquefa/PythonScrapper/PythonCodeQualityScraper/code_quality_output_folder/configs/beans/ObjectMapperFactory.java.html. span tags: 17
+/Users/rniquefa/PythonScrapper/PythonCodeQualityScraper/code_quality_output_folder/configs/beans/ObjectMapperFactory.java.html
+complexity: 2, issue_count: 15
+1 : Package name 'com.mercadolibre.shipping_cart_partial_cancel.configs.beans' must match pattern '^[a-z]+(\.[a-z][a-z-]*)*$'.
+1 : Extra separation in import group before 'java.text.DateFormat'
+1 : Wrong lexicographical order for 'java.text.DateFormat' import. Should be before 'org.springframework.context.annotation.Configuration'.
+1 : Wrong lexicographical order for 'java.text.SimpleDateFormat' import. Should be before 'org.springframework.context.annotation.Configuration'.
+1 : Wrong lexicographical order for 'java.util.TimeZone' import. Should be before 'org.springframework.context.annotation.Configuration'.
+2 : 'method def modifier' has incorrect indentation level , expected level should be .
+1 : Missing a Javadoc comment.
+4 : 'method def' child has incorrect indentation level , expected level should be .
+2 : 'method def rcurly' has incorrect indentation level , expected level should be .
+1 : When instantiating a SimpleDateFormat object, specify a Locale
+
+Processing file: /Users/rniquefa/PythonScrapper/PythonCodeQualityScraper/code_quality_output_folder/configs/beans/RestClientFactory.java.html. span tags: 15
+/Users/rniquefa/PythonScrapper/PythonCodeQualityScraper/code_quality_output_folder/configs/beans/RestClientFactory.java.html
+complexity: 2, issue_count: 13
+1 : Package name 'com.mercadolibre.shipping_cart_partial_cancel.configs.beans' must match pattern '^[a-z]+(\.[a-z][a-z-]*)*$'.
+1 : Wrong lexicographical order for 'com.mercadolibre.shipping_cart_partial_cancel.configs.PoolProperties' import. Should be before 'com.mercadolibre.shipping_cart_partial_cancel.configs.RestClientConfig'.
+1 : Extra separation in import group before 'java.io.IOException'
+1 : Wrong lexicographical order for 'java.io.IOException' import. Should be before 'org.springframework.core.annotation.Order'.
+1 : 'member def modifier' has incorrect indentation level , expected level should be .
+2 : 'method def modifier' has incorrect indentation level , expected level should be .
+1 : Missing a Javadoc comment.
+3 : 'method def' child has incorrect indentation level , expected level should be .
+2 : 'method def rcurly' has incorrect indentation level , expected level should be .
+
+Processing file: /Users/rniquefa/PythonScrapper/PythonCodeQualityScraper/code_quality_output_folder/controllers/PingController.java.html. span tags: 12
+/Users/rniquefa/PythonScrapper/PythonCodeQualityScraper/code_quality_output_folder/controllers/PingController.java.html
+complexity: 1, issue_count: 10
+1 : Package name 'com.mercadolibre.shipping_cart_partial_cancel.controllers' must match pattern '^[a-z]+(\.[a-z][a-z-]*)*$'.
+5 : Line contains a tab character.
+1 : 'method def modifier' has incorrect indentation level , expected level should be .
+2 : 'method def' child has incorrect indentation level , expected level should be .
+1 : 'method def rcurly' has incorrect indentation level , expected level should be .
+
+Processing file: /Users/rniquefa/PythonScrapper/PythonCodeQualityScraper/code_quality_output_folder/controllers/PartialCancelController.java.html. span tags: 11
+/Users/rniquefa/PythonScrapper/PythonCodeQualityScraper/code_quality_output_folder/controllers/PartialCancelController.java.html
+complexity: 1, issue_count: 9
+1 : Package name 'com.mercadolibre.shipping_cart_partial_cancel.controllers' must match pattern '^[a-z]+(\.[a-z][a-z-]*)*$'.
+1 : 'member def modifier' has incorrect indentation level , expected level should be .
+1 : 'method def modifier' has incorrect indentation level , expected level should be .
+1 : Missing a Javadoc comment.
+4 : 'method def' child has incorrect indentation level , expected level should be .
+1 : 'method def rcurly' has incorrect indentation level , expected level should be .
+
+Processing file: /Users/rniquefa/PythonScrapper/PythonCodeQualityScraper/code_quality_output_folder/controllers/exceptionHandler/ExceptionHandlerController.java.html. span tags: 111
+/Users/rniquefa/PythonScrapper/PythonCodeQualityScraper/code_quality_output_folder/controllers/exceptionHandler/ExceptionHandlerController.java.html
+complexity: 11, issue_count: 109
+1 : Package name 'com.mercadolibre.shipping_cart_partial_cancel.controllers.exceptionHandler' must match pattern '^[a-z]+(\.[a-z][a-z-]*)*$'.
+1 : Using the '.*' form of import should be avoided - com.mercadolibre.shipping_cart_partial_cancel.exceptions.rest.*.
+1 : Unused import 'com.mercadolibre.shipping_cart_partial_cancel.exceptions.rest.*'
+55 : Line contains a tab character.
+1 : 'member def modifier' has incorrect indentation level , expected level should be .
+10 : 'method def modifier' has incorrect indentation level , expected level should be .
+9 : Missing a Javadoc comment.
+21 : 'method def' child has incorrect indentation level , expected level should be .
+10 : 'method def rcurly' has incorrect indentation level , expected level should be .
+
+Processing file: /Users/rniquefa/PythonScrapper/PythonCodeQualityScraper/code_quality_output_folder/helpers/PurchaseItemQuantityHelper.java.html. span tags: 14
+/Users/rniquefa/PythonScrapper/PythonCodeQualityScraper/code_quality_output_folder/helpers/PurchaseItemQuantityHelper.java.html
+complexity: 4, issue_count: 12
+1 : Package name 'com.mercadolibre.shipping_cart_partial_cancel.helpers' must match pattern '^[a-z]+(\.[a-z][a-z-]*)*$'.
+1 : Extra separation in import group before 'java.util.Optional'
+1 : All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+3 : 'method def modifier' has incorrect indentation level , expected level should be .
+3 : 'method def' child has incorrect indentation level , expected level should be .
+3 : 'method def rcurly' has incorrect indentation level , expected level should be .
+
+Processing file: /Users/rniquefa/PythonScrapper/PythonCodeQualityScraper/code_quality_output_folder/services/SnapshotService.java.html. span tags: 9
+/Users/rniquefa/PythonScrapper/PythonCodeQualityScraper/code_quality_output_folder/services/SnapshotService.java.html
+complexity: 1, issue_count: 7
+1 : Package name 'com.mercadolibre.shipping_cart_partial_cancel.services' must match pattern '^[a-z]+(\.[a-z][a-z-]*)*$'.
+3 : 'member def modifier' has incorrect indentation level , expected level should be .
+1 : 'method def modifier' has incorrect indentation level , expected level should be .
+1 : 'method def' child has incorrect indentation level , expected level should be .
+1 : 'method def rcurly' has incorrect indentation level , expected level should be .
+
+Processing file: /Users/rniquefa/PythonScrapper/PythonCodeQualityScraper/code_quality_output_folder/services/CalculatorService.java.html. span tags: 16
+/Users/rniquefa/PythonScrapper/PythonCodeQualityScraper/code_quality_output_folder/services/CalculatorService.java.html
+complexity: 3, issue_count: 14
+1 : Package name 'com.mercadolibre.shipping_cart_partial_cancel.services' must match pattern '^[a-z]+(\.[a-z][a-z-]*)*$'.
+4 : 'member def modifier' has incorrect indentation level , expected level should be .
+3 : 'method def modifier' has incorrect indentation level , expected level should be .
+3 : 'method def' child has incorrect indentation level , expected level should be .
+3 : 'method def rcurly' has incorrect indentation level , expected level should be .
+
+Processing file: /Users/rniquefa/PythonScrapper/PythonCodeQualityScraper/code_quality_output_folder/services/PartialCancelService.java.html. span tags: 39
+/Users/rniquefa/PythonScrapper/PythonCodeQualityScraper/code_quality_output_folder/services/PartialCancelService.java.html
+complexity: 5, issue_count: 37
+1 : Package name 'com.mercadolibre.shipping_cart_partial_cancel.services' must match pattern '^[a-z]+(\.[a-z][a-z-]*)*$'.
+1 : Extra separation in import group before 'java.util.List'
+1 : Wrong lexicographical order for 'java.util.List' import. Should be before 'org.springframework.stereotype.Service'.
+4 : 'member def modifier' has incorrect indentation level , expected level should be .
+2 : 'method def modifier' has incorrect indentation level , expected level should be .
+1 : Missing a Javadoc comment.
+2 : 'try' has incorrect indentation level , expected level should be .
+7 : 'try' child has incorrect indentation level , expected level should be .
+2 : 'try rcurly' has incorrect indentation level , expected level should be .
+4 : 'catch' child has incorrect indentation level , expected level should be .
+2 : 'catch rcurly' has incorrect indentation level , expected level should be .
+2 : 'method def rcurly' has incorrect indentation level , expected level should be .
+1 : 'method def' child has incorrect indentation level , expected level should be .
+1 : 'if' has incorrect indentation level , expected level should be .
+2 : 'if' child has incorrect indentation level , expected level should be .
+1 : 'if rcurly' has incorrect indentation level , expected level should be .
+2 : 'else' child has incorrect indentation level , expected level should be .
+1 : 'else rcurly' has incorrect indentation level , expected level should be .
+
+Processing file: /Users/rniquefa/PythonScrapper/PythonCodeQualityScraper/code_quality_output_folder/services/providers/RestService.java.html. span tags: 75
+/Users/rniquefa/PythonScrapper/PythonCodeQualityScraper/code_quality_output_folder/services/providers/RestService.java.html
+complexity: 17, issue_count: 73
+1 : Package name 'com.mercadolibre.shipping_cart_partial_cancel.services.providers' must match pattern '^[a-z]+(\.[a-z][a-z-]*)*$'.
+1 : Using the '.*' form of import should be avoided - com.mercadolibre.shipping_cart_partial_cancel.exceptions.rest.*.
+1 : Unused import 'com.mercadolibre.shipping_cart_partial_cancel.exceptions.rest.*'
+1 : Extra separation in import group before 'java.util.Map'
+1 : Wrong lexicographical order for 'java.util.Map' import. Should be before 'org.springframework.stereotype.Service'.
+1 : Wrong lexicographical order for 'java.util.Optional' import. Should be before 'org.springframework.stereotype.Service'.
+1 : Wrong lexicographical order for 'java.util.stream.Collectors' import. Should be before 'org.springframework.stereotype.Service'.
+1 : Wrong lexicographical order for 'java.util.stream.StreamSupport' import. Should be before 'org.springframework.stereotype.Service'.
+2 : 'member def modifier' has incorrect indentation level , expected level should be .
+6 : 'method def modifier' has incorrect indentation level , expected level should be .
+2 : Missing a Javadoc comment.
+2 : Parameter name 'aClass' must match pattern '^[a-z]([a-z-][a-zA-Z-]*)?$'.
+8 : 'method def' child has incorrect indentation level , expected level should be .
+6 : 'method def rcurly' has incorrect indentation level , expected level should be .
+2 : 'try' has incorrect indentation level , expected level should be .
+4 : 'try' child has incorrect indentation level , expected level should be .
+2 : 'try rcurly' has incorrect indentation level , expected level should be .
+6 : 'catch' child has incorrect indentation level , expected level should be .
+4 : 'catch rcurly' has incorrect indentation level , expected level should be .
+1 : New exception is thrown in catch block, original stack trace may be lost
+3 : 'if' has incorrect indentation level , expected level should be .
+1 : 'if' is not followed by whitespace.
+8 : 'if' child has incorrect indentation level , expected level should be .
+6 : 'if rcurly' has incorrect indentation level , expected level should be .
+1 : 'else' child has incorrect indentation level , expected level should be .
+1 : 'else rcurly' has incorrect indentation level , expected level should be .
+
+Processing file: /Users/rniquefa/PythonScrapper/PythonCodeQualityScraper/code_quality_output_folder/services/providers/ApiCallContext.java.html. span tags: 14
+/Users/rniquefa/PythonScrapper/PythonCodeQualityScraper/code_quality_output_folder/services/providers/ApiCallContext.java.html
+complexity: 0, issue_count: 12
+1 : Package name 'com.mercadolibre.shipping_cart_partial_cancel.services.providers' must match pattern '^[a-z]+(\.[a-z][a-z-]*)*$'.
+1 : Extra separation in import group before 'java.util.Map'
+1 : Wrong lexicographical order for 'java.util.Map' import. Should be before 'org.springframework.http.HttpMethod'.
+1 : Wrong lexicographical order for 'java.util.concurrent.Callable' import. Should be before 'org.springframework.http.HttpMethod'.
+1 : Type Javadoc comment is missing @param  tag.
+6 : 'member def modifier' has incorrect indentation level , expected level should be .
+1 : Member name 'aClass' must match pattern '^[a-z][a-z-][a-zA-Z-]*$'.
+
+34 : 'member def modifier' has incorrect indentation level , expected level should be .
+18 : 'method def modifier' has incorrect indentation level , expected level should be .
+18 : 'method def' child has incorrect indentation level , expected level should be .
+18 : 'method def rcurly' has incorrect indentation level , expected level should be .
+16 : Missing a Javadoc comment.
+12 : 'ctor def modifier' has incorrect indentation level , expected level should be .
+11 : 'ctor def' child has incorrect indentation level , expected level should be .
+11 : 'ctor def rcurly' has incorrect indentation level , expected level should be .
+8 : Extra separation in import group before 'java.util.List'
+5 : Package name 'com.mercadolibre.shipping_cart_partial_cancel.constants' must match pattern '^[a-z]+(\.[a-z][a-z-]*)*$'.
+5 : Package name 'com.mercadolibre.shipping_cart_partial_cancel.exceptions.rest' must match pattern '^[a-z]+(\.[a-z][a-z-]*)*$'.
+5 : 'class def modifier' has incorrect indentation level , expected level should be .
+5 : 'class def rcurly' has incorrect indentation level , expected level should be .
+5 : Package name 'com.mercadolibre.shipping_cart_partial_cancel.dtos.process' must match pattern '^[a-z]+(\.[a-z][a-z-]*)*$'.
+4 : Line contains a tab character.
+4 : 'if' has incorrect indentation level , expected level should be .
+4 : 'if' child has incorrect indentation level , expected level should be .
+4 : 'if rcurly' has incorrect indentation level , expected level should be .
+4 : Extra separation in import group before 'java.util.Map'
+4 : Extra separation in import group before 'java.math.BigDecimal'
+4 : Package name 'com.mercadolibre.shipping_cart_partial_cancel.dtos.errors' must match pattern '^[a-z]+(\.[a-z][a-z-]*)*$'.
+3 : Package name 'com.mercadolibre.shipping_cart_partial_cancel.util' must match pattern '^[a-z]+(\.[a-z][a-z-]*)*$'.
+3 : All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+3 : Extra separation in import group before 'java.util.Optional'
+3 : Classes implementing Serializable should set a serialVersionUID
+3 : Package name 'com.mercadolibre.shipping_cart_partial_cancel.dtos.output' must match pattern '^[a-z]+(\.[a-z][a-z-]*)*$'.
+3 : Using the '.*' form of import should be avoided - lombok.*.
+3 : Unused import 'lombok.*'
+3 : Wrong lexicographical order for 'java.util.List' import. Should be before 'lombok.*'.
+3 : Wrong lexicographical order for 'java.util.List' import. Should be before 'org.springframework.stereotype.Service'.
+3 : 'try' has incorrect indentation level , expected level should be .
+3 : 'try' child has incorrect indentation level , expected level should be .
+3 : 'try rcurly' has incorrect indentation level , expected level should be .
+3 : 'catch' child has incorrect indentation level , expected level should be .
+3 : 'catch rcurly' has incorrect indentation level , expected level should be .
+3 : Package name 'com.mercadolibre.shipping_cart_partial_cancel.services' must match pattern '^[a-z]+(\.[a-z][a-z-]*)*$'.
+2 : Assigning an Object to null is a code smell.  Consider refactoring.
+2 : Package name 'com.mercadolibre.shipping_cart_partial_cancel.exceptions' must match pattern '^[a-z]+(\.[a-z][a-z-]*)*$'.
+2 : Wrong lexicographical order for 'java.util.Map' import. Should be before 'org.springframework.http.HttpStatus'.
+2 : Package name 'com.mercadolibre.shipping_cart_partial_cancel.dtos.input' must match pattern '^[a-z]+(\.[a-z][a-z-]*)*$'.
+2 : Wrong lexicographical order for 'java.util.List' import. Should be before 'lombok.ToString'.
+2 : Wrong lexicographical order for 'java.math.BigDecimal' import. Should be before 'lombok.ToString'.
+2 : Import statement for 'com.mercadolibre.shipping_cart_partial_cancel.dtos.output.PackConfig.Buyer' is in the wrong order. Should be in the 'STATIC' group, expecting not assigned imports on this line.
+2 : Package name 'com.mercadolibre.shipping_cart_partial_cancel.factories' must match pattern '^[a-z]+(\.[a-z][a-z-]*)*$'.
+2 : Wrong lexicographical order for 'java.util.Optional' import. Should be before 'org.springframework.stereotype.Service'.
+2 : Wrong lexicographical order for 'java.util.stream.Collectors' import. Should be before 'org.springframework.stereotype.Service'.
+2 : Package name 'com.mercadolibre.shipping_cart_partial_cancel.configs' must match pattern '^[a-z]+(\.[a-z][a-z-]*)*$'.
+2 : Package name 'com.mercadolibre.shipping_cart_partial_cancel.configs.beans' must match pattern '^[a-z]+(\.[a-z][a-z-]*)*$'.
+2 : Package name 'com.mercadolibre.shipping_cart_partial_cancel.controllers' must match pattern '^[a-z]+(\.[a-z][a-z-]*)*$'.
+2 : Using the '.*' form of import should be avoided - com.mercadolibre.shipping_cart_partial_cancel.exceptions.rest.*.
+2 : Unused import 'com.mercadolibre.shipping_cart_partial_cancel.exceptions.rest.*'
+2 : 'else' child has incorrect indentation level , expected level should be .
+2 : 'else rcurly' has incorrect indentation level , expected level should be .
+2 : Package name 'com.mercadolibre.shipping_cart_partial_cancel.services.providers' must match pattern '^[a-z]+(\.[a-z][a-z-]*)*$'.
+1 : Package name 'com.mercadolibre.shipping_cart_partial_cancel' must match pattern '^[a-z]+(\.[a-z][a-z-]*)*$'.
+1 : When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+1 : Static variable name 'SENDER' must match pattern '^[a-z]([a-z-][a-zA-Z-]*)?$'.
+1 : com.mercadolibre.shipping_cart_partial_cancel.constants.UserType.SENDER isn't final but should be
+1 : Static variable name 'RECEIVER' must match pattern '^[a-z]([a-z-][a-zA-Z-]*)?$'.
+1 : com.mercadolibre.shipping_cart_partial_cancel.constants.UserType.RECEIVER isn't final but should be
+1 : Wrong lexicographical order for 'java.math.BigDecimal' import. Should be before 'lombok.*'.
+1 : Wrong lexicographical order for 'java.util.List' import. Should be before 'org.springframework.http.HttpStatus'.
+1 : Wrong lexicographical order for 'java.util.stream.Collectors' import. Should be before 'org.springframework.http.HttpStatus'.
+1 : Import statement for 'com.mercadolibre.shipping_cart_partial_cancel.dtos.output.PackConfig.Dimensions' is in the wrong order. Should be in the 'STATIC' group, expecting not assigned imports on this line.
+1 : Import statement for 'com.mercadolibre.shipping_cart_partial_cancel.dtos.output.PackConfig.ShippingOption' is in the wrong order. Should be in the 'STATIC' group, expecting not assigned imports on this line.
+1 : Wrong lexicographical order for 'java.util.List' import. Should be before 'lombok.NoArgsConstructor'.
+1 : Import statement for 'com.mercadolibre.shipping_cart_partial_cancel.dtos.process.Snapshot.Destination' is in the wrong order. Should be in the 'STATIC' group, expecting not assigned imports on this line.
+1 : Import statement for 'com.mercadolibre.shipping_cart_partial_cancel.dtos.process.Snapshot.ShippingConfig' is in the wrong order. Should be in the 'STATIC' group, expecting not assigned imports on this line.
+1 : 'block' child has incorrect indentation level , expected level should be .
+1 : Wrong lexicographical order for 'java.math.BigDecimal' import. Should be before 'org.springframework.stereotype.Service'.
+1 : Wrong lexicographical order for 'java.util.Optional' import. Should be before 'lombok.RequiredArgsConstructor'.
+1 : Wrong lexicographical order for 'java.util.List' import. Should be before 'org.springframework.boot.context.properties.ConstructorBinding'.
+1 : Wrong lexicographical order for 'java.util.stream.Collectors' import. Should be before 'org.springframework.boot.context.properties.ConstructorBinding'.
+1 : Extra separation in import group before 'java.text.DateFormat'
+1 : Wrong lexicographical order for 'java.text.DateFormat' import. Should be before 'org.springframework.context.annotation.Configuration'.
+1 : Wrong lexicographical order for 'java.text.SimpleDateFormat' import. Should be before 'org.springframework.context.annotation.Configuration'.
+1 : Wrong lexicographical order for 'java.util.TimeZone' import. Should be before 'org.springframework.context.annotation.Configuration'.
+1 : When instantiating a SimpleDateFormat object, specify a Locale
+1 : Wrong lexicographical order for 'com.mercadolibre.shipping_cart_partial_cancel.configs.PoolProperties' import. Should be before 'com.mercadolibre.shipping_cart_partial_cancel.configs.RestClientConfig'.
+1 : Extra separation in import group before 'java.io.IOException'
+1 : Wrong lexicographical order for 'java.io.IOException' import. Should be before 'org.springframework.core.annotation.Order'.
+1 : Package name 'com.mercadolibre.shipping_cart_partial_cancel.controllers.exceptionHandler' must match pattern '^[a-z]+(\.[a-z][a-z-]*)*$'.
+1 : Package name 'com.mercadolibre.shipping_cart_partial_cancel.helpers' must match pattern '^[a-z]+(\.[a-z][a-z-]*)*$'.
+1 : Wrong lexicographical order for 'java.util.Map' import. Should be before 'org.springframework.stereotype.Service'.
+1 : Wrong lexicographical order for 'java.util.stream.StreamSupport' import. Should be before 'org.springframework.stereotype.Service'.
+1 : Parameter name 'aClass' must match pattern '^[a-z]([a-z-][a-zA-Z-]*)?$'.
+1 : New exception is thrown in catch block, original stack trace may be lost
+1 : 'if' is not followed by whitespace.
+1 : Wrong lexicographical order for 'java.util.Map' import. Should be before 'org.springframework.http.HttpMethod'.
+1 : Wrong lexicographical order for 'java.util.concurrent.Callable' import. Should be before 'org.springframework.http.HttpMethod'.
+1 : Type Javadoc comment is missing @param  tag.
+1 : Member name 'aClass' must match pattern '^[a-z][a-z-][a-zA-Z-]*$'.
+
+PROCESSED FILES : 45
+TOTAL ISSUES IN FILES : 318
+TOTAL ISSUE TYPES IN FILES : 92

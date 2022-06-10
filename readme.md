@@ -19,6 +19,7 @@ After being in the virtual environment and installing all dependencies, to run d
 
 `(venv) ➜  PythonCodeQualityScraper git:(main) python3 run.py`
 
+To get the output in a text file, run:  `python3 run.py > output_example.txt` to get the output in the file `output_example.txt`
 
 ## Unit testing and test coverage
 To check the test coverage, run `coverage run  -m unittest discover -v` and then run `coverage report`.
