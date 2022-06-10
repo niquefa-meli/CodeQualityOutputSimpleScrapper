@@ -164,3 +164,4 @@ cython_debug/
 # New adition for this project:
 code_quality_output_folder/
 .vscode/
+.DS_Store

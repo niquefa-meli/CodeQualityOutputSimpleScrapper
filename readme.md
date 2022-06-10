@@ -19,7 +19,9 @@ After being in the virtual environment and installing all dependencies, to run d
 
 `(venv) ➜  PythonCodeQualityScraper git:(main) python3 run.py`
 
-To get the output in a text file, run:  `python3 run.py > output_example.txt` to get the output in the file `output_example.txt`
+To get the output in a text file, run:  `python3 run.py > output_example.txt` to get the output in the file `output_example.txt`.
+
+There are also a file `output_example_with_tests.txt` of a run putting all te test in the code_quality_output_folder which is bigger than the output file with out those files included.
 
 ## Output format
 
