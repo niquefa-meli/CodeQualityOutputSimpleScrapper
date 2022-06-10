@@ -21,6 +21,16 @@ After being in the virtual environment and installing all dependencies, to run d
 
 To get the output in a text file, run:  `python3 run.py > output_example.txt` to get the output in the file `output_example.txt`
 
+## Output format
+
+The output will look like the output_example.txt
+
+First it will be an aggregated by file, the issues have the digit character deleted to be grouped easily.
+
+At the end it will be the aggregated sorted by issue count in all files, the format for all issues count is `issueCount : issue description`.
+
+And at the end it will show the ordered by same issue count, and three messages: amount of processed files, the total issues in all files and the total number of different issue types.
+
 ## Unit testing and test coverage
 To check the test coverage, run `coverage run  -m unittest discover -v` and then run `coverage report`.
 
