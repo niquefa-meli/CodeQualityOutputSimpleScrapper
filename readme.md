@@ -13,6 +13,13 @@ This repository is made in Python 3.6.13 and pip3 (version 22.1.2). Make sure yo
 * To install dependencies: `pip3 install -r requirements.txt`
 * To deactivate the virtual environment run `deactivate`
 
+## Running the program
+
+After being in the virtual environment and installing all dependencies, to run de program simply run `python3 run.py`. This should look something like:
+
+`(venv) ➜  PythonCodeQualityScraper git:(main) python3 run.py`
+
+
 ## Unit testing and test coverage
 To check the test coverage, run `coverage run  -m unittest discover -v` and then run `coverage report`.
 
