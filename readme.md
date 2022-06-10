@@ -1,6 +1,6 @@
 # Python scrapper to check CodeQuality Report in local directory
 
-To the first commit, the project successfully scarp all the `*.java.html` files in the `shipping_cart_partial_cancel` example code quality output. 
+To the first commit, the project successfully scarp all the `*.java.html` files in the `code_quality_output_folder` example code quality output. Note: the `code_quality_output_folder` folder is included in the .gitignore file, but there is where the program will search for files with suffix `SUFFIX_TO_DETECT = ".java.html"`
 
 # Python version
 
@@ -34,3 +34,6 @@ TOTAL                                  19      3    84%
 This code has been beautify using black: https://github.com/psf/black. 
 The command to use is `black . -l 120`.
 
+## Contribution
+
+All MeLi contribution are welcome. Make sure to test everything and run `black . -l 120` before making any pull request. 
