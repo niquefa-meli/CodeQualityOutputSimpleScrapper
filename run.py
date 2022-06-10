@@ -22,10 +22,10 @@ for dirpath, _, filenames in os.walk(constants.CODE_QUALITY_OUTPUT_ROOT_DIRECTOR
                     all_issues_map[key] = 1
 
 
-print("PROCESSED FILES : " + str(total_processes_files))
-
 all_issues_map_tuple_list = utils.get_tuple_list_sorted_by_value(all_issues_map)
 
 print(utils.get_string_rep_from_map(all_issues_map_tuple_list))
 
+print("PROCESSED FILES : " + str(total_processes_files))
 print("TOTAL ISSUES IN FILES : " + str(sum(all_issues_map.values())))
+print("TOTAL ISSUE TYPES IN FILES : " + str(len(all_issues_map)))

@@ -1,4 +1,4 @@
-#gitignore taken from https://github.com/github/gitignore/edit/main/Python.gitignore
+#gitignore taken and adapted from https://github.com/github/gitignore/edit/main/Python.gitignore
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -9,6 +9,7 @@ __pycache__/
 *.so
 
 # Distribution / packaging
+code_quality_output_folder/
 .Python
 build/
 develop-eggs/
